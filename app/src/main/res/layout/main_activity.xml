@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/imageTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="displayMessage"
+            android:text="@string/image_title" />
+
+        <TextView
+            android:id="@+id/imageDate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="displayMessage"
+            android:text="@string/image_date" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/wahroonga"
+            android:adjustViewBounds="true" />
+
+        <TextView
+            android:id="@+id/imageDescription"
+            android:text="@string/image_description"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:background="#ff8D8D8D"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <Button
+            android:text="@string/refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRefresh" />
+
+        <Button android:text="@string/setwallpaper"
+            android:onClick="onSetWallpaper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/setWallpaperButton" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

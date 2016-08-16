@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Image Viewer</string>
+    <string name="image_title">Wahroonga Station</string>
+    <string name="image_date">12/12/2013</string>
+    <string name="image_description">This is a text description of what\'s a description of this description
+    this description must be very long. Density Independent Pixels (DIP) Android supports too many
+        screen sizes to keep track! Using raw pixel dimensions in layouts might make your layout look
+        good on one device and terrible on others. Android provides an ABSTRACT sizing measurement
+        called Density Indepent Pixels that is derived from device attributes. his means that you can
+        define layout attributes in DIPs that will look great on all Android devices. Thanks, Android!
+        screen sizes to keep track! Using raw pixel dimensions in layouts might make your layout look
+        good on one device and terrible on others. Android provides an ABSTRACT sizing measurement
+        called Density Indepent Pixels that is derived from device attributes. his means that you can
+        define layout attributes in DIPs that will look great on all Android devices. Thanks, Android!
+        screen sizes to keep track! Using raw pixel dimensions in layouts might make your layout look
+        good on one device and terrible on others. Android provides an ABSTRACT sizing measurement
+        called Density Indepent Pixels that is derived from device attributes. his means that you can
+        define layout attributes in DIPs that will look great on all Android devices. Thanks, Android!
+    </string>
+    <string name="refresh">Refresh</string>
+    <string name="setwallpaper">Set as Wallpaper</string>
+    <string name="imagePlace">imagePlace</string>
+</resources>
